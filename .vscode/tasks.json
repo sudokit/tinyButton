@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Flash tinygo and monitor",
+            "type": "shell",
+            "command": "./run",
+        }
+    ]
+}
