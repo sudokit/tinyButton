@@ -7,3 +7,24 @@ ps. idk how this licensing works so mb if i violated any stuff. lmk and ill make
 The code may be/is really bad. This was my first Go "project". (so i don't know even how you would install this :pp)
 
 (just found it but theres another awesome project for TinyGo buttons if you need a better and more efficent alternative: [bouncer](https://github.com/eyelight/bouncer). It just was a little too complicated for my needs :D)
+
+example usage (just a simple click button):
+```go
+import (
+    "machine"
+    "github.com/sudokit/tinyButton"
+)
+
+func main() {
+    button_pin := machine.D5
+    button := tinyButton.NewButton(button_pin)
+    button.Configure(25, true, true)
+
+    for {
+        button.Read()
+        if button.IsPressed() {
+            println("Button is pressed!)
+        }
+    }
+}
+```
