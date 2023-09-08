@@ -1,4 +1,4 @@
-package button
+package tinyButton
 
 import (
 	"machine"
