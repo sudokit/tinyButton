@@ -1,3 +1,0 @@
-tinygo flash -target=arduino -port=/dev/ttyUSB0 main.go
-echo "Entering serial monitor"
-tinygo monitor -port=/dev/ttyUSB0 -baudrate=9600
