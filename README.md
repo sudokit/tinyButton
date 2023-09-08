@@ -1,5 +1,5 @@
 # tinyButton
-**Theres also an existing wayy better and more efficent project [bouncer](https://github.com/eyelight/bouncer), but it was just a little bit too complex for me.**
+**Theres also an existing wayy better and more efficent solution [bouncer](https://github.com/eyelight/bouncer), but it was just a little bit too complex for me.**
 
 A really simple button libary for TinyGo. I needed a simple button library for TinyGo projects, and i really liked the [JC_Button](https://github.com/JChristensen/JC_Button) library for aduino. So i decided to try translating it to Go (+ the #33 pullrequest that apparently fixes some noise issues).
 
